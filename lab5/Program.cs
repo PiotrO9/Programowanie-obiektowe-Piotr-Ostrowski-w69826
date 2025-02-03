@@ -1,4 +1,5 @@
 ﻿using lab5;
+using lab5.Klasy;
 
 //Zadanie 1
 
@@ -60,3 +61,26 @@
 //Zadanie 2 
 
 
+//Sklep sklep = new Sklep();
+
+//sklep.DodajZamowienie(1, new List<string> { "Laptop", "Myszka" });
+//sklep.DodajZamowienie(2, new List<string> { "Telefon", "Ładowarka" });
+
+//sklep.WyswietlZamowienia();
+
+//try
+//{
+//    sklep.ZmienStatusZamowienia(1, StatusZamowienia.Przyjete);
+//    sklep.ZmienStatusZamowienia(2, StatusZamowienia.Zrealizowane);
+//}
+//catch (Exception e)
+//{
+//    Console.WriteLine("Błąd: " + e.Message);
+//}
+
+//sklep.WyswietlZamowienia();
+
+//Zadanie 3
+
+GraKolory gra = new GraKolory();
+gra.RozpocznijGre();
